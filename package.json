@@ -13,15 +13,6 @@
     "test": "jest --coverage --coverageDirectory=output/coverage/jest",
     "eject": "react-scripts eject"
   },
-  "jest": {
-    "coverageReporters": [
-      "text"
-    ],
-    "reporters": [
-      "default",
-      "jest-junit"
-    ]
-  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -34,5 +25,14 @@
   "devDependencies": {
     "jest": "^23.6.0",
     "jest-junit": "^6.3.0"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
   }
 }
