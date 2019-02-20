@@ -34,5 +34,6 @@
       "default",
       "jest-junit"
     ]
-  }
+  },
+  "homepage": "https://github.com/sunilv1611/jenkinstest/"
 }
